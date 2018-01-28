@@ -3,13 +3,13 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
-
 	margin: 0;
 	padding: 5% 0;
 
 	color: white;
 	background-color: rgb(23, 177, 177);
+
+	font-family: 'Roboto', sans-serif;
 }
 
 .title {
@@ -89,8 +89,6 @@ body {
 }
 
 .slider .control-btn {
-	font-size: 3em;
-
 	position: absolute;
 	z-index: 1;
 	top: 50%;
@@ -104,6 +102,8 @@ body {
 
 	color: white;
 	background-color: rgba(0, 0, 0, .5);
+
+	font-size: 3em;
 }
 
 .slider .control-btn.go-right {
@@ -117,6 +117,7 @@ body {
 	background-color: rgba(0, 0, 0, .7);
 }
 
+.slider .control-btn.go-right:focus,
 .slider .control-btn.go-right:hover {
 	padding: 20px 5px 20px 25px;
 }
