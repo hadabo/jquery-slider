@@ -37,6 +37,10 @@ h1 {
   width: 100%;
 }
 
+.slider li.active {
+  z-index: 1;
+}
+
 .slider li span {
   position: absolute;
   padding: 10px;
